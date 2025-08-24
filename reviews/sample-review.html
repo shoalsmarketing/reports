@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Marketing Tool Review | Shoals Marketing</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .review-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .review-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .score-box {
+            background: var(--bg-light);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .score {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .pros, .cons {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+        
+        .pros h3 {
+            color: var(--success-color);
+            margin-bottom: 1rem;
+        }
+        
+        .cons h3 {
+            color: #ef4444;
+            margin-bottom: 1rem;
+        }
+        
+        .pros ul, .cons ul {
+            list-style-position: inside;
+            color: var(--text-dark);
+        }
+        
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+        
+        .pricing-table th {
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+        }
+        
+        .pricing-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .pricing-table tr:nth-child(even) {
+            background: var(--bg-light);
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin: 2rem 0;
+        }
+        
+        .feature-list li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .feature-list li:before {
+            content: "✓ ";
+            color: var(--success-color);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        
+        .verdict {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 3rem 0;
+        }
+        
+        .verdict h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="../index.html" style="color: white; text-decoration: none;">Marketing Tool Reports & Reviews</a></h1>
+            <p class="tagline">In-depth analysis and honest reviews</p>
+        </div>
+    </header>
+
+    <div class="review-header">
+        <div class="review-content">
+            <h1>Sample Marketing Tool: Comprehensive Review</h1>
+            <div class="meta">
+                <span style="background: white; color: var(--text-dark); padding: 0.25rem 0.75rem; border-radius: 20px;">August 2025</span>
+                <span style="background: white; color: var(--primary-color); padding: 0.25rem 0.75rem; border-radius: 20px;">Email Marketing</span>
+                <span style="background: white; color: var(--warning-color); padding: 0.25rem 0.75rem; border-radius: 20px;">★★★★☆</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="review-content">
+        <section>
+            <h2>Overview</h2>
+            <p>This is a sample review template for your marketing tool reviews. Replace this content with your actual review. This tool represents a comprehensive solution for email marketing professionals looking to streamline their campaigns and improve engagement rates.</p>
+            
+            <p>During our testing period of 30 days, we sent over 50,000 emails across various campaigns to evaluate the platform's capabilities, deliverability, and overall performance.</p>
+        </section>
+
+        <div class="score-box">
+            <div class="score">8.5/10</div>
+            <p>Overall Score</p>
+            <p style="margin-top: 1rem; color: var(--text-light);">Based on features, pricing, usability, and support</p>
+        </div>
+
+        <section>
+            <h2>Key Features</h2>
+            <ul class="feature-list">
+                <li>Advanced email automation with visual workflow builder</li>
+                <li>A/B testing capabilities for subject lines and content</li>
+                <li>Responsive email templates with drag-and-drop editor</li>
+                <li>Detailed analytics and reporting dashboard</li>
+                <li>Integration with 50+ third-party applications</li>
+                <li>List segmentation and personalization options</li>
+                <li>GDPR compliance tools and features</li>
+                <li>24/7 customer support via chat and email</li>
+            </ul>
+        </section>
+
+        <div class="pros-cons">
+            <div class="pros">
+                <h3>✓ Pros</h3>
+                <ul>
+                    <li>Intuitive user interface</li>
+                    <li>Excellent deliverability rates</li>
+                    <li>Comprehensive automation features</li>
+                    <li>Fair pricing for small businesses</li>
+                    <li>Responsive customer support</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <h3>✗ Cons</h3>
+                <ul>
+                    <li>Limited template customization</li>
+                    <li>Steep learning curve for advanced features</li>
+                    <li>No phone support on basic plan</li>
+                    <li>API rate limits can be restrictive</li>
+                </ul>
+            </div>
+        </div>
+
+        <section>
+            <h2>Pricing</h2>
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Monthly Price</th>
+                        <th>Contacts</th>
+                        <th>Emails/Month</th>
+                        <th>Key Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Starter</strong></td>
+                        <td>$29/mo</td>
+                        <td>Up to 1,000</td>
+                        <td>10,000</td>
+                        <td>Basic automation, templates</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Professional</strong></td>
+                        <td>$79/mo</td>
+                        <td>Up to 5,000</td>
+                        <td>50,000</td>
+                        <td>Advanced automation, A/B testing</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Enterprise</strong></td>
+                        <td>$299/mo</td>
+                        <td>Up to 25,000</td>
+                        <td>Unlimited</td>
+                        <td>All features, dedicated support</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Performance Metrics</h2>
+            <p>During our testing period, we tracked the following performance metrics:</p>
+            <ul>
+                <li><strong>Email Deliverability:</strong> 98.5% inbox placement rate</li>
+                <li><strong>Average Open Rate:</strong> 24.3% (industry average: 21.5%)</li>
+                <li><strong>Click-through Rate:</strong> 3.8% (industry average: 2.6%)</li>
+                <li><strong>Automation Reliability:</strong> 99.9% uptime</li>
+                <li><strong>Support Response Time:</strong> Average 2 hours</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Who Should Use This Tool?</h2>
+            <p>This tool is ideal for:</p>
+            <ul>
+                <li>Small to medium-sized businesses looking for comprehensive email marketing</li>
+                <li>E-commerce stores needing automation and segmentation</li>
+                <li>Marketing agencies managing multiple client campaigns</li>
+                <li>Content creators building and engaging their audience</li>
+            </ul>
+        </section>
+
+        <div class="verdict">
+            <h2>Final Verdict</h2>
+            <p>Sample Marketing Tool offers a solid combination of features, usability, and value for money. While it may not be the most advanced platform on the market, it strikes an excellent balance between functionality and ease of use.</p>
+            
+            <p>The platform's strength lies in its intuitive interface and reliable performance, making it an excellent choice for businesses that want powerful email marketing without the complexity. The pricing is competitive, especially for the features offered in the Professional plan.</p>
+            
+            <p><strong>Recommendation:</strong> We recommend this tool for small to medium businesses and those new to email marketing automation. Larger enterprises might want to consider more advanced alternatives.</p>
+        </div>
+
+        <section>
+            <h2>Alternatives to Consider</h2>
+            <ul>
+                <li><strong>Alternative Tool A:</strong> Better for large enterprises with complex needs</li>
+                <li><strong>Alternative Tool B:</strong> More affordable option with basic features</li>
+                <li><strong>Alternative Tool C:</strong> Superior automation but steeper learning curve</li>
+            </ul>
+        </section>
+
+        <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+            <p style="color: var(--text-light); font-style: italic;">Last updated: August 2025 | Review based on 30-day testing period</p>
+            <p style="margin-top: 1rem;"><a href="../index.html" style="color: var(--primary-color); text-decoration: none;">← Back to All Reviews</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shoals Marketing. All reviews are independent and based on actual testing.</p>
+            <p>Contact: reviews@shoalsmarketing.com</p>
+        </div>
+    </footer>
+</body>
+</html>
