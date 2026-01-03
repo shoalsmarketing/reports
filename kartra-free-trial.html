@@ -3,930 +3,546 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kartra 30-Day Free Trial: Complete Guide to Getting Started</title>
-    <meta name="description" content="Get your Kartra 30-day free trial and test all premium features. Step-by-step setup guide, feature overview, and comparison with ClickFunnels, Kajabi, and ConvertKit. Start building professional sales funnels today.">
-    <link rel="stylesheet" href="styles.css">
+    <title>Kartra Pricing Breakdown - Plans, Features and Cost Analysis</title>
+    <meta name="description" content="Complete Kartra pricing breakdown covering all plans, features included at each tier, and cost analysis to help you choose the right subscription level.">
     <style>
-        .article-content {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+        }
+
+        .container {
             max-width: 900px;
             margin: 0 auto;
+            padding: 0 20px;
         }
-        
-        .article-content h2 {
-            color: var(--primary-color);
-            border-bottom: 2px solid var(--bg-light);
+
+        header {
+            padding: 2rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        nav a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .article-container {
+            background: white;
+            border-radius: 12px;
+            padding: 3rem;
+            margin: 2rem auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .article-container h1 {
+            color: #1e3c72;
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .article-meta {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .rating-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            color: #1e3c72;
+            font-size: 1.75rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
             padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e8f0fe;
         }
-        
-        .article-content h3 {
-            color: var(--text-dark);
+
+        h3 {
+            color: #2a5298;
+            font-size: 1.3rem;
             margin-top: 2rem;
+            margin-bottom: 0.75rem;
         }
-        
-        .article-content p {
-            margin-bottom: 1.2rem;
+
+        p {
+            color: #555;
+            font-size: 1.05rem;
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #2a5298;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul, ol {
+            margin: 1.25rem 0 1.5rem 1.5rem;
+            color: #555;
+        }
+
+        li {
+            margin-bottom: 0.6rem;
             line-height: 1.7;
         }
-        
-        .article-content ul, .article-content ol {
-            margin: 1rem 0 1.5rem 1.5rem;
-            line-height: 1.6;
+
+        .cta-box {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            margin: 2rem 0;
         }
-        
+
+        .cta-box h3 {
+            color: white;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .cta-box p {
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #1e3c72 !important;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none !important;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(255,255,255,0.3);
+            text-decoration: none;
+        }
+
+        .highlight-box {
+            background: #e8f0fe;
+            border-left: 4px solid #1e3c72;
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #1e3c72;
+        }
+
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .pros {
+            background: #d4edda;
+            border: 1px solid #28a745;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .cons {
+            background: #f8d7da;
+            border: 1px solid #dc3545;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .pros h4 {
+            color: #155724;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .cons h4 {
+            color: #721c24;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .pros ul, .cons ul {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+
         .pricing-table {
             width: 100%;
             border-collapse: collapse;
-            margin: 2rem 0;
+            margin: 1.5rem 0;
             background: white;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             border-radius: 8px;
             overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-        
+
         .pricing-table th {
-            background: var(--primary-color);
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
             padding: 1rem;
             text-align: left;
             font-weight: 600;
         }
-        
+
         .pricing-table td {
-            padding: 0.75rem 1rem;
-            border-bottom: 1px solid var(--border-color);
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid #eee;
         }
-        
+
         .pricing-table tr:nth-child(even) {
-            background: var(--bg-light);
+            background: #f8f9fa;
         }
-        
-        .comparison-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 2rem 0;
-            font-size: 0.9rem;
+
+        .faq-section {
+            margin-top: 2rem;
         }
-        
-        .comparison-table th {
-            background: var(--primary-color);
-            color: white;
-            padding: 0.75rem;
-            text-align: center;
-        }
-        
-        .comparison-table td {
-            padding: 0.6rem;
-            text-align: center;
-            border: 1px solid var(--border-color);
-        }
-        
-        .checkmark {
-            color: var(--success-color);
-            font-weight: bold;
-        }
-        
-        .crossmark {
-            color: #ef4444;
-            font-weight: bold;
-        }
-        
-        .highlight-box {
-            background: #fef3c7;
-            border-left: 4px solid var(--warning-color);
-            padding: 1rem 1.5rem;
-            margin: 1.5rem 0;
-            border-radius: 0 8px 8px 0;
-        }
-        
-        .info-box {
-            background: #dbeafe;
-            border-left: 4px solid var(--primary-color);
-            padding: 1rem 1.5rem;
-            margin: 1.5rem 0;
-            border-radius: 0 8px 8px 0;
-        }
-        
-        .success-box {
-            background: #d1fae5;
-            border-left: 4px solid var(--success-color);
-            padding: 1rem 1.5rem;
-            margin: 1.5rem 0;
-            border-radius: 0 8px 8px 0;
-        }
-        
-        .cta-section {
-            text-align: center;
-            background: linear-gradient(135deg, #0066cc, #ff6600);
-            padding: 2rem;
-            border-radius: 12px;
-            margin: 3rem 0;
-            color: white;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: #ff6600;
-            color: white !important;
-            padding: 1rem 2rem;
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin: 1rem 0;
-            transition: all 0.3s;
-        }
-        
-        .cta-button:hover {
-            background: #e55a00;
-            transform: translateY(-2px);
-        }
-        
-        .cta-subtitle {
-            font-size: 0.9rem;
-            margin-top: 1rem;
-            opacity: 0.9;
-        }
-        
+
         .faq-item {
-            margin-bottom: 2rem;
-            background: var(--bg-light);
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
             border-radius: 8px;
             padding: 1.5rem;
+            margin-bottom: 1rem;
         }
-        
+
         .faq-question {
-            font-size: 1.1rem;
             font-weight: 600;
-            color: var(--primary-color);
+            color: #1e3c72;
             margin-bottom: 0.75rem;
+            font-size: 1.1rem;
         }
-        
-        @media (max-width: 768px) {
-            .pricing-table, .comparison-table {
-                font-size: 0.8rem;
-            }
-            
-            .pricing-table th, .pricing-table td {
-                padding: 0.5rem;
-            }
+
+        .faq-answer {
+            color: #555;
+            margin-bottom: 0;
+        }
+
+        .resource-links {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .resource-links h4 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+        }
+
+        .resource-links ul {
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: white;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: white;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Kartra 30-Day Free Trial</h1>
-            <p class="tagline">Complete Guide to Getting Started</p>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Shoals Digital</h1>
+            <p>Strategic Marketing Intelligence & Technology Reviews</p>
+        </header>
 
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Landing Pages</a></li>
-                <li><a href="#">Webinar Software</a></li>
-            </ul>
-        </div>
-    </nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blotato-review.html">Blotato</a>
+            <a href="kartra-free-trial.html">Kartra</a>
+        </nav>
 
-    <main class="container">
-        <section>
-            <div class="featured-card">
-                <div class="meta">
-                    <span class="date">Last Updated: August 2025</span>
-                    <span class="category">Marketing Platform</span>
-                    <span class="rating">⭐⭐⭐⭐⭐ 4.7/5</span>
-                </div>
-                <p><strong>Looking for an all-in-one marketing platform that doesn't require a credit card to test?</strong> Kartra's exclusive 30-day free trial gives you complete access to their comprehensive marketing suite - longer than most competitors who only offer 14 days. In this complete guide, we'll show you exactly how to access this exclusive trial and make the most of your 30 days.</p>
+        <article class="article-container">
+            <h1>Kartra Pricing Breakdown - Plans, Features and Cost Analysis</h1>
+
+            <div class="article-meta">
+                Comprehensive Pricing Guide | 13 minute read
             </div>
 
-            <div style="text-align: center; background: var(--bg-light); padding: 2rem; border-radius: 12px; margin: 2rem 0; border: 1px solid var(--border-color);">
-                <h3 style="color: var(--text-dark); margin-bottom: 1rem;">Get Your Exclusive 30-Day Kartra Trial</h3>
-                <p style="color: var(--text-light); margin-bottom: 1.5rem;">Access the full Kartra platform for 30 days - no credit card required</p>
-                <a href="https://digitalverge.net/kartratrial" style="display: inline-block; background: var(--primary-color); color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: all 0.3s;" onmouseover="this.style.background='var(--secondary-color)'" onmouseout="this.style.background='var(--primary-color)'">
-                    Click Here to Start Trial
-                </a>
-                <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 1rem;">
-                    30-day trial • No credit card required • Full feature access
-                </p>
-            </div>
-        </section>
+            <div class="rating-badge">★★★★☆ 4.5/5 Value Rating</div>
 
-        <div class="article-content">
-            <h2>What is Kartra and Why Try the Free Trial?</h2>
+            <p>Marketing platforms represent significant investments, making pricing transparency essential for informed decision-making. When comparing all-in-one solutions, understanding exactly what each tier includes prevents surprises and ensures budget alignment with actual requirements. This analysis dissects the complete cost structure to help you identify the optimal subscription level for your business situation.</p>
 
-            <h3>Overview of Kartra's All-in-One Marketing Platform</h3>
-            <p>Kartra is a comprehensive digital marketing platform that combines multiple tools into one unified system. Unlike other platforms that specialize in just one area, Kartra provides everything you need to run a complete online business:</p>
-            <ul>
-                <li><strong>Landing Page Builder</strong>: Create high-converting pages with drag-and-drop simplicity</li>
-                <li><strong>Sales Funnel System</strong>: Build complete customer journeys from lead to sale</li>
-                <li><strong>Email Marketing</strong>: Advanced automation and broadcast capabilities</li>
-                <li><strong>Membership Sites</strong>: Host courses, communities, and protected content</li>
-                <li><strong>Shopping Cart</strong>: Process payments and manage transactions</li>
-                <li><strong>Analytics & Tracking</strong>: Monitor performance across all touchpoints</li>
-                <li><strong>Help Desk</strong>: Manage customer support tickets</li>
-                <li><strong>Calendar Booking</strong>: Schedule appointments and consultations</li>
-            </ul>
+            <p>Beyond raw numbers, evaluating pricing requires context about value delivery at each level. The <a href="https://digitalverge.net/reviews/kartra-trial/">Kartra</a> platform structures its tiers around contact limits and feature access, creating distinct value propositions for different business stages. Understanding these distinctions ensures you neither overpay for unused capacity nor constrain growth with inadequate resources.</p>
 
-            <h3>Key Benefits of the 30-Day Trial (vs. 14-Day Competitors)</h3>
-            <p>Kartra's 30-day trial period is significantly longer than most competitors, giving you substantial time to:</p>
-
-            <div class="success-box">
-                <p><strong>30 Days Allows You To:</strong></p>
-                <ul>
-                    <li><strong>Build Multiple Funnels</strong>: Test different approaches and strategies</li>
-                    <li><strong>Launch Real Campaigns</strong>: See actual results from your marketing efforts</li>
-                    <li><strong>Train Your Team</strong>: Get everyone comfortable with the platform</li>
-                    <li><strong>Integrate Systems</strong>: Connect with your existing tools and workflows</li>
-                    <li><strong>Analyze Performance</strong>: Gather meaningful data on what works</li>
-                </ul>
+            <div class="cta-box">
+                <h3>Experience the Platform Firsthand</h3>
+                <p>Test all features before committing to understand real value delivery.</p>
+                <a href="https://digitalverge.net/kartratrial" class="cta-button">Click to Access Trial</a>
             </div>
 
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Platform</th>
-                        <th>Trial Length</th>
-                        <th>Credit Card Required</th>
-                        <th>Feature Access</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Kartra</strong></td>
-                        <td>30 Days</td>
-                        <td><span class="crossmark">No</span></td>
-                        <td>Full Access</td>
-                    </tr>
-                    <tr>
-                        <td>ClickFunnels</td>
-                        <td>14 Days</td>
-                        <td><span class="checkmark">Yes</span></td>
-                        <td>Full Access</td>
-                    </tr>
-                    <tr>
-                        <td>Kajabi</td>
-                        <td>14 Days</td>
-                        <td><span class="checkmark">Yes</span></td>
-                        <td>Full Access</td>
-                    </tr>
-                    <tr>
-                        <td>ConvertKit</td>
-                        <td>14 Days</td>
-                        <td><span class="crossmark">No</span></td>
-                        <td>Limited</td>
-                    </tr>
-                </tbody>
-            </table>
+            <h2>Understanding the Pricing Philosophy</h2>
 
-            <h3>Who Should Consider Kartra</h3>
-            <p>Kartra is ideal for:</p>
-            <ul>
-                <li><strong>Online Course Creators</strong>: Need membership sites, email marketing, and sales funnels</li>
-                <li><strong>Digital Marketers</strong>: Want comprehensive tracking and funnel optimization</li>
-                <li><strong>Small Business Owners</strong>: Prefer one platform over multiple disconnected tools</li>
-                <li><strong>Agencies</strong>: Manage multiple clients from a single dashboard</li>
-                <li><strong>Entrepreneurs</strong>: Building complex sales processes and customer journeys</li>
-            </ul>
+            <p>All-in-one platform pricing differs fundamentally from point solution economics. Individual tools might cost less in isolation, but integration complexity and data fragmentation create hidden costs that consolidated platforms eliminate. Evaluating investment requires comparing against the true total cost of fragmented alternatives rather than individual tool prices.</p>
 
-            <h2>How to Get Your Kartra Free Trial</h2>
+            <p>The pricing structure reflects infrastructure costs, development investment, and support requirements. Cloud hosting for page builders, email delivery infrastructure, video hosting bandwidth, and continuous feature development all contribute to operational expenses that subscription fees must cover. Understanding this context helps evaluate whether pricing represents fair value exchange.</p>
 
-            <h3>Step-by-Step Signup Process</h3>
-            <p>Getting your exclusive Kartra 30-day trial is straightforward, but requires accessing through the right method:</p>
+            <p>Contact-based pricing tiers scale with business growth. Starting plans accommodate new businesses building initial audiences, while higher tiers serve established operations with substantial customer bases. This scaling approach prevents overpayment during early stages while ensuring capacity exists when growth occurs.</p>
 
-            <p><strong>Step 1: Access the Exclusive Trial Link</strong><br>
-            The 30-day trial is only available through specific partner links. You cannot get this extended trial directly from Kartra's main website.</p>
+            <h2>Detailed Plan Comparison</h2>
 
-            <p><strong>Step 2: Trigger the Exit Popup</strong><br>
-            When you visit the trial page, the exclusive 30-day offer appears through an exit-intent popup. Simply move your mouse toward the browser's close button or address bar to trigger this popup.</p>
-
-            <p><strong>Step 3: Complete Registration</strong></p>
-            <ul>
-                <li>Enter your email address</li>
-                <li>Create a secure password</li>
-                <li>Provide basic business information</li>
-                <li>Agree to terms of service</li>
-            </ul>
-
-            <p><strong>Step 4: Verify Your Account</strong></p>
-            <ul>
-                <li>Check your email for verification link</li>
-                <li>Click to confirm your account</li>
-                <li>Log in to your new Kartra dashboard</li>
-            </ul>
-
-            <h3>Accessing the Exclusive Trial Link</h3>
-            <div class="highlight-box">
-                <p><strong>Important Note:</strong> The 30-day trial is exclusively available through partner links and cannot be found on Kartra's main website. This extended trial period is offered through strategic partnerships to give potential customers more time to thoroughly evaluate the platform.</p>
-                <p>Our exclusive link provides access to this extended trial period. For more detailed information about the trial process, you can also visit <a href="https://digitalverge.net/reviews/kartra-trial/" target="_blank">DigitalVerge</a> for additional insights and setup tips.</p>
-            </div>
-
-            <h3>No Credit Card Requirements</h3>
-            <p>Unlike many competitors, Kartra's trial doesn't require a credit card upfront. This means:</p>
-            <ul>
-                <li><strong>No Automatic Billing</strong>: You won't be charged unless you actively choose to upgrade</li>
-                <li><strong>No Forgotten Charges</strong>: No risk of forgetting to cancel and getting billed</li>
-                <li><strong>Genuine Trial Period</strong>: Full 30 days to evaluate without payment pressure</li>
-                <li><strong>Easy Transition</strong>: If you decide to continue, you can add payment details when ready</li>
-            </ul>
-
-            <h3>Trial Limitations and Restrictions</h3>
-            <div class="info-box">
-                <p><strong>What's Included in Your 30-Day Trial:</strong></p>
-                <ul>
-                    <li>Access to all Kartra features and tools</li>
-                    <li>Ability to create unlimited pages, funnels, and campaigns</li>
-                    <li>Full email marketing capabilities</li>
-                    <li>Complete membership site functionality</li>
-                    <li>Analytics and reporting tools</li>
-                    <li>Customer support access</li>
-                </ul>
-            </div>
-
-            <div class="highlight-box">
-                <p><strong>Trial Limitations:</strong></p>
-                <ul>
-                    <li>Limited to 50 leads during trial period</li>
-                    <li>Cannot process real payments (test mode only)</li>
-                    <li>Some advanced integrations may be restricted</li>
-                    <li>Trial cannot be extended beyond 30 days</li>
-                </ul>
-            </div>
-
-            <h2>Kartra Features You Can Test During Your Trial</h2>
-
-            <h3>Landing Page Builder</h3>
-            <p>Kartra's drag-and-drop page builder includes:</p>
-            <div class="grid">
-                <div class="review-card">
-                    <h4>Professional Templates</h4>
-                    <ul>
-                        <li>100+ high-converting templates</li>
-                        <li>Mobile-responsive designs</li>
-                        <li>Industry-specific layouts</li>
-                        <li>Customizable elements and sections</li>
-                    </ul>
-                </div>
-
-                <div class="review-card">
-                    <h4>Advanced Features</h4>
-                    <ul>
-                        <li>A/B split testing capabilities</li>
-                        <li>Dynamic text replacement</li>
-                        <li>Countdown timers and urgency elements</li>
-                        <li>Video backgrounds and animations</li>
-                    </ul>
-                </div>
-            </div>
-
-            <h3>Sales Funnel Creation Tools</h3>
-            <p>Build complete customer journeys with Kartra's funnel system:</p>
-            <ul>
-                <li><strong>Visual Funnel Builder</strong>: Drag-and-drop interface for creating complex funnels</li>
-                <li><strong>Pre-Built Templates</strong>: Proven funnel structures for different business models</li>
-                <li><strong>Conversion Tracking</strong>: Monitor performance at each step</li>
-                <li><strong>Behavioral Triggers</strong>: Automate actions based on user behavior</li>
-                <li><strong>Upsell/Downsell Sequences</strong>: Maximize revenue per customer</li>
-            </ul>
-
-            <h3>Email Marketing System</h3>
-            <div class="success-box">
-                <p><strong>Email Marketing Capabilities:</strong></p>
-                <ul>
-                    <li><strong>Automation Sequences</strong>: Set up complex email workflows</li>
-                    <li><strong>Broadcast Campaigns</strong>: Send newsletters and announcements</li>
-                    <li><strong>Behavioral Triggers</strong>: Send emails based on specific actions</li>
-                    <li><strong>Advanced Segmentation</strong>: Target specific subscriber groups</li>
-                    <li><strong>Deliverability Optimization</strong>: Built-in tools to improve inbox rates</li>
-                </ul>
-            </div>
-
-            <h3>Membership Site Builder</h3>
-            <p>Create protected content areas and online communities:</p>
-            <ul>
-                <li><strong>Course Hosting</strong>: Upload and organize video lessons</li>
-                <li><strong>Progress Tracking</strong>: Monitor student advancement</li>
-                <li><strong>Drip Content</strong>: Release content on a schedule</li>
-                <li><strong>Community Features</strong>: Discussion forums and member interaction</li>
-                <li><strong>Certificates</strong>: Award completion certificates</li>
-            </ul>
-
-            <h3>Shopping Cart and Checkout Pages</h3>
             <table class="pricing-table">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Payment Processing</strong></td>
-                        <td>Stripe, PayPal, and other gateway integrations</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Order Management</strong></td>
-                        <td>Track orders, refunds, and customer transactions</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Tax Calculations</strong></td>
-                        <td>Automatic tax calculation based on location</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Inventory Tracking</strong></td>
-                        <td>Monitor stock levels for physical products</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Subscription Billing</strong></td>
-                        <td>Recurring payments and membership billing</td>
-                    </tr>
-                </tbody>
+                <tr>
+                    <th>Plan</th>
+                    <th>Monthly Investment</th>
+                    <th>Contact Capacity</th>
+                    <th>Primary Use Case</th>
+                </tr>
+                <tr>
+                    <td>Starter</td>
+                    <td>$119/month</td>
+                    <td>2,500 contacts</td>
+                    <td>New businesses, solo entrepreneurs</td>
+                </tr>
+                <tr>
+                    <td>Growth</td>
+                    <td>$229/month</td>
+                    <td>12,500 contacts</td>
+                    <td>Growing businesses, agencies</td>
+                </tr>
+                <tr>
+                    <td>Professional</td>
+                    <td>$549/month</td>
+                    <td>25,000 contacts</td>
+                    <td>Established businesses, high volume</td>
+                </tr>
             </table>
 
-            <h3>Analytics and Reporting Tools</h3>
-            <p>Track performance across your entire marketing funnel:</p>
-            <ul>
-                <li><strong>Funnel Analytics</strong>: See conversion rates at each step</li>
-                <li><strong>Email Performance</strong>: Track opens, clicks, and conversions</li>
-                <li><strong>Revenue Reporting</strong>: Monitor sales and profitability</li>
-                <li><strong>Traffic Sources</strong>: Understand where your leads come from</li>
-                <li><strong>Custom Dashboards</strong>: Create personalized reporting views</li>
-            </ul>
+            <h3>Starter Plan Deep Dive</h3>
 
-            <h2>Kartra vs. Competitors: Free Trial Comparison</h2>
+            <p>The entry-level tier provides complete platform access with capacity constraints appropriate for businesses in formation stages. The 2,500 contact limit accommodates meaningful list building while the monthly investment remains manageable for ventures still proving their models. All core features remain accessible, ensuring evaluation reflects true platform capabilities rather than artificially restricted previews.</p>
 
-            <h3>Kartra vs. ClickFunnels Trial</h3>
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Kartra</th>
-                        <th>ClickFunnels</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Trial Length</strong></td>
-                        <td>30 Days</td>
-                        <td>14 Days</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Credit Card Required</strong></td>
-                        <td><span class="crossmark">No</span></td>
-                        <td><span class="checkmark">Yes</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Email Marketing</strong></td>
-                        <td><span class="checkmark">Built-in</span></td>
-                        <td><span class="crossmark">Add-on Cost</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Membership Sites</strong></td>
-                        <td><span class="checkmark">Included</span></td>
-                        <td><span class="crossmark">Limited</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Help Desk</strong></td>
-                        <td><span class="checkmark">Included</span></td>
-                        <td><span class="crossmark">Not Available</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Starting Price</strong></td>
-                        <td>$99/month</td>
-                        <td>$147/month</td>
-                    </tr>
-                </tbody>
-            </table>
+            <p>Bandwidth allocations support professional-scale operations without requiring immediate upgrades. Page views, email sends, and video hosting capacity handle legitimate business volumes. Only operations exceeding these thresholds—typically indicating growth warranting tier advancement—encounter limits requiring attention.</p>
 
-            <h3>Kartra vs. Kajabi Trial</h3>
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Kartra</th>
-                        <th>Kajabi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Trial Length</strong></td>
-                        <td>30 Days</td>
-                        <td>14 Days</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Funnel Builder</strong></td>
-                        <td><span class="checkmark">Advanced</span></td>
-                        <td><span class="crossmark">Basic</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Course Platform</strong></td>
-                        <td><span class="checkmark">Good</span></td>
-                        <td><span class="checkmark">Excellent</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Email Marketing</strong></td>
-                        <td><span class="checkmark">Advanced</span></td>
-                        <td><span class="crossmark">Basic</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Affiliate Management</strong></td>
-                        <td><span class="checkmark">Built-in</span></td>
-                        <td><span class="crossmark">Third-party</span></td>
-                    </tr>
-                </tbody>
-            </table>
+            <p>The starter tier functions as a genuine business tool rather than a limited demo. Entrepreneurs can build complete funnels, deliver products, manage subscriptions, and automate marketing without artificial constraints beyond contact capacity. This approach enables building sustainable operations before scaling investments alongside growth.</p>
 
-            <h3>Kartra vs. ConvertKit Trial</h3>
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Kartra</th>
-                        <th>ConvertKit</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Trial Length</strong></td>
-                        <td>30 Days</td>
-                        <td>14 Days</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Platform Type</strong></td>
-                        <td>All-in-One</td>
-                        <td>Email-Focused</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Landing Pages</strong></td>
-                        <td><span class="checkmark">Advanced Builder</span></td>
-                        <td><span class="crossmark">Basic Templates</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Sales Funnels</strong></td>
-                        <td><span class="checkmark">Complete System</span></td>
-                        <td><span class="crossmark">Not Available</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Learning Curve</strong></td>
-                        <td>Moderate</td>
-                        <td>Easy</td>
-                    </tr>
-                </tbody>
-            </table>
+            <h3>Growth Plan Analysis</h3>
 
-            <h2>Making the Most of Your 30-Day Kartra Trial</h2>
+            <p>Mid-tier pricing reflects expanded capacity needs as businesses scale beyond initial stages. The five-fold contact increase to 12,500 accommodates growing email lists without constant plan modifications. Bandwidth and resource allocations scale proportionally, supporting increased traffic and engagement volumes.</p>
 
-            <h3>Week 1: Platform Setup and Familiarization</h3>
+            <p>Agency features debut at this level, enabling management of multiple client accounts under unified billing. For marketing professionals serving multiple businesses, this consolidation creates administrative efficiency and potential profit margins on client work. The per-account economics become increasingly favorable as client portfolios grow.</p>
+
+            <p>Additional team member seats become available, supporting collaborative operations. Growing businesses rarely operate as solo ventures indefinitely; team access ensures the platform grows alongside organizational complexity without requiring migrations to enterprise-only alternatives.</p>
+
+            <h3>Professional Plan Economics</h3>
+
+            <p>Top-tier pricing serves established operations where platform limitations would constrain rather than optimize growth. The 25,000 contact capacity handles substantial audiences while enhanced resource allocations support high-traffic operations without performance degradation concerns.</p>
+
+            <p>Priority support accompanies professional subscriptions, reducing resolution times when issues arise. For businesses where platform availability directly impacts revenue, faster support response justifies the premium. Dedicated resources ensure problems receive attention commensurate with their business impact.</p>
+
+            <p>Custom integrations and advanced API access enable sophisticated automation beyond standard capabilities. Operations requiring deep customization or connections to specialized systems find necessary flexibility at this tier. The investment reflects both expanded capacity and enhanced extensibility.</p>
+
             <div class="highlight-box">
-                <p><strong>Week 1 Checklist:</strong></p>
-                <ul>
-                    <li>✅ Complete account setup and profile information</li>
-                    <li>✅ Watch Kartra's getting started tutorials</li>
-                    <li>✅ Explore the dashboard and main navigation</li>
-                    <li>✅ Set up your first landing page using a template</li>
-                    <li>✅ Configure basic email settings and sender information</li>
-                    <li>✅ Connect any existing tools or integrations</li>
-                    <li>✅ Familiarize yourself with the help documentation</li>
-                </ul>
+                <p><strong>Cost Comparison:</strong> Assembling equivalent functionality from separate tools typically exceeds these prices while creating integration overhead. Email platforms alone often cost $100+ monthly at similar contact volumes, before adding page builders, membership systems, and automation tools.</p>
             </div>
 
-            <h3>Week 2: Building Your First Funnel</h3>
-            <p><strong>Focus Areas for Week 2:</strong></p>
+            <h2>Feature Access by Tier</h2>
+
+            <p>Understanding exactly what each tier includes prevents feature-based disappointment. Core functionality remains consistent across tiers; capacity and advanced capabilities create differentiation.</p>
+
+            <h3>Universal Features (All Plans)</h3>
+
             <ul>
-                <li><strong>Choose a Funnel Template</strong>: Start with a proven structure</li>
-                <li><strong>Customize Landing Pages</strong>: Add your branding and content</li>
-                <li><strong>Set Up Email Sequences</strong>: Create welcome and nurture campaigns</li>
-                <li><strong>Configure Thank You Pages</strong>: Design post-opt-in experiences</li>
-                <li><strong>Test the User Journey</strong>: Walk through as a customer would</li>
+                <li>Drag-and-drop page builder with templates</li>
+                <li>Email marketing with automation sequences</li>
+                <li>Checkout and payment processing</li>
+                <li>Membership site functionality</li>
+                <li>Video hosting and delivery</li>
+                <li>Helpdesk ticketing system</li>
+                <li>Calendar and scheduling tools</li>
+                <li>Funnel building and tracking</li>
+                <li>Affiliate management system</li>
+                <li>Basic analytics and reporting</li>
             </ul>
 
-            <h3>Week 3: Email Marketing Setup</h3>
-            <p><strong>Email Marketing Tasks:</strong></p>
-            <ul>
-                <li><strong>Import Existing Lists</strong>: Bring in your current subscribers</li>
-                <li><strong>Create Segments</strong>: Organize contacts by interests or behavior</li>
-                <li><strong>Build Automation Sequences</strong>: Set up behavioral triggers</li>
-                <li><strong>Design Email Templates</strong>: Create branded email designs</li>
-                <li><strong>Test Deliverability</strong>: Ensure emails reach the inbox</li>
-            </ul>
+            <h3>Tier-Specific Enhancements</h3>
 
-            <h3>Week 4: Testing and Optimization</h3>
-            <div class="success-box">
-                <p><strong>Final Week Optimization:</strong></p>
-                <ul>
-                    <li><strong>Run A/B Tests</strong>: Test different headlines and calls-to-action</li>
-                    <li><strong>Analyze Performance</strong>: Review conversion rates and identify bottlenecks</li>
-                    <li><strong>Refine Messaging</strong>: Improve copy based on user feedback</li>
-                    <li><strong>Test Mobile Experience</strong>: Ensure everything works on mobile devices</li>
-                    <li><strong>Plan Your Next Steps</strong>: Decide whether to continue with Kartra</li>
-                </ul>
-            </div>
+            <p>Growth and Professional tiers add capabilities beyond capacity increases. Agency functionality, additional team seats, advanced integrations, and priority support create tangible value beyond raw contact limits. Businesses should evaluate these additions against their specific operational requirements.</p>
 
-            <h2>Kartra Pricing After Your Trial Ends</h2>
+            <p>Custom domains per funnel increase at higher tiers, supporting operations requiring distinct branding for different offerings or client work. Bandwidth ceiling increases accommodate traffic spikes without throttling or overage concerns. These technical enhancements matter most for operations pushing platform boundaries.</p>
 
-            <h3>Complete Pricing Breakdown</h3>
-            <table class="pricing-table">
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Starter ($99/mo)</th>
-                        <th>Silver ($199/mo)</th>
-                        <th>Gold ($299/mo)</th>
-                        <th>Platinum ($499/mo)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Leads</strong></td>
-                        <td>2,500</td>
-                        <td>12,500</td>
-                        <td>25,000</td>
-                        <td>50,000</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Emails/Month</strong></td>
-                        <td>15,000</td>
-                        <td>125,000</td>
-                        <td>250,000</td>
-                        <td>500,000</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Custom Domains</strong></td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td>10</td>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Pages & Funnels</strong></td>
-                        <td>Unlimited</td>
-                        <td>Unlimited</td>
-                        <td>Unlimited</td>
-                        <td>Unlimited</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Membership Sites</strong></td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td>10</td>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Admin Accounts</strong></td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td>10</td>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Helpdesk</strong></td>
-                        <td><span class="checkmark">✅</span></td>
-                        <td><span class="checkmark">✅</span></td>
-                        <td><span class="checkmark">✅</span></td>
-                        <td><span class="checkmark">✅</span></td>
-                    </tr>
-                </tbody>
-            </table>
+            <h2>How It Compares to Alternatives</h2>
 
-            <div class="grid">
-                <div class="review-card">
-                    <h3>Starter Plan - $99/month</h3>
-                    <p><strong>Best For:</strong> Solo entrepreneurs and small businesses just getting started with online marketing.</p>
+            <p>Contextualizing pricing against alternatives reveals relative value positioning. Direct competitors and assembled tool stacks both warrant comparison.</p>
+
+            <p>ClickFunnels at $147-297 monthly provides funnel building focus but requires external email and membership solutions for complete functionality. The apparent savings disappear when adding necessary supplementary tools. Kajabi at $149-399 monthly emphasizes course delivery with less sophisticated marketing automation. Systeme.io offers lower pricing but with correspondingly reduced capabilities and support levels.</p>
+
+            <p>Assembled alternatives illustrate hidden complexity costs. ConvertKit or ActiveCampaign for email ($99-299/month at scale), Leadpages or Unbounce for landing pages ($49-199/month), Teachable or Thinkific for memberships ($99-199/month), and Calendly for scheduling ($15-25/month) quickly exceed all-in-one pricing while creating integration burden. Additional exploration at <a href="https://digitalverge.lovable.app/kartra-free-trial-pricing-guide">https://digitalverge.lovable.app/kartra-free-trial-pricing-guide</a> provides further competitive context.</p>
+
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>Value Strengths</h4>
                     <ul>
-                        <li>Perfect for testing Kartra's capabilities</li>
-                        <li>Includes all core features</li>
-                        <li>Suitable for up to 2,500 leads</li>
-                        <li>Great value compared to using multiple tools</li>
+                        <li>Complete functionality at all tiers</li>
+                        <li>Eliminates tool integration costs</li>
+                        <li>Scales with business growth</li>
+                        <li>Includes video hosting</li>
+                        <li>Built-in affiliate system</li>
+                        <li>No per-transaction fees</li>
                     </ul>
                 </div>
-
-                <div class="review-card">
-                    <h3>Silver Plan - $199/month</h3>
-                    <p><strong>Best For:</strong> Growing businesses with expanding email lists and multiple projects.</p>
+                <div class="cons">
+                    <h4>Cost Considerations</h4>
                     <ul>
-                        <li>12,500 leads capacity</li>
-                        <li>Multiple membership sites</li>
-                        <li>Team collaboration features</li>
-                        <li>Most popular plan among users</li>
-                    </ul>
-                </div>
-
-                <div class="review-card">
-                    <h3>Gold Plan - $299/month</h3>
-                    <p><strong>Best For:</strong> Established businesses with large email lists and complex funnels.</p>
-                    <ul>
-                        <li>25,000 leads capacity</li>
-                        <li>Advanced automation capabilities</li>
-                        <li>Priority customer support</li>
-                        <li>Ideal for agencies and consultants</li>
-                    </ul>
-                </div>
-
-                <div class="review-card">
-                    <h3>Platinum Plan - $499/month</h3>
-                    <p><strong>Best For:</strong> Large enterprises and agencies managing multiple high-volume clients.</p>
-                    <ul>
-                        <li>50,000 leads capacity</li>
-                        <li>Maximum admin accounts</li>
-                        <li>Highest email sending limits</li>
-                        <li>Premium support and training</li>
+                        <li>Higher entry point than basic tools</li>
+                        <li>Contact limits require monitoring</li>
+                        <li>Annual commitment for best rates</li>
+                        <li>Overage potential if limits exceeded</li>
                     </ul>
                 </div>
             </div>
 
-            <h3>Money-Back Guarantee</h3>
-            <div class="info-box">
-                <p><strong>Kartra's Guarantee Policy:</strong></p>
+            <h2>Optimizing Your Investment</h2>
+
+            <h3>Right-Sizing Your Plan</h3>
+
+            <p>Starting at appropriate tier levels prevents both overpayment and constraint. New businesses typically find Starter capacity sufficient for initial years of operation. Premature upgrades waste resources; reactive upgrades respond to actual growth metrics.</p>
+
+            <p>Monitor contact counts and usage metrics available within the platform dashboard. Approaching limits trigger notifications enabling proactive tier evaluation. Growth patterns inform timing—seasonal businesses might temporarily exceed limits while steady-state operations indicate permanent tier needs.</p>
+
+            <h3>Annual vs Monthly Billing</h3>
+
+            <p>Annual commitments reduce effective monthly costs significantly—typically 20-25% savings. The trade-off involves reduced flexibility; annual plans lock commitment regardless of changing circumstances. Businesses confident in platform fit benefit from annual economics; those still evaluating might prefer monthly flexibility despite higher per-period costs.</p>
+
+            <p>Trial periods enable confident annual commitment decisions. Thorough evaluation during trial reveals whether the platform suits long-term needs, making annual commitment less risky than blind subscription. For pricing details and current promotional offers, visit <a href="https://digitalverge.net/reviews/kartra-trial/">https://digitalverge.net/reviews/kartra-trial/</a>.</p>
+
+            <h3>Maximizing Feature Utilization</h3>
+
+            <p>Platform value correlates directly with utilization breadth. Businesses using only email functionality while paying for complete suites underutilize their investment. Exploring membership capabilities, helpdesk tools, and automation features extracts additional value from existing subscriptions.</p>
+
+            <p>The consolidated nature means incremental feature adoption costs nothing beyond learning time. Unlike assembled stacks where new capabilities require new tool subscriptions, expanding platform usage within existing subscriptions delivers pure value addition. This dynamic rewards comprehensive exploration.</p>
+
+            <h2>Common Questions About Pricing</h2>
+
+            <div class="faq-section">
+                <div class="faq-item">
+                    <p class="faq-question">Are there hidden fees beyond subscription costs?</p>
+                    <p class="faq-answer">Subscription fees cover platform access comprehensively. Payment processing fees apply to transactions (standard credit card processing rates through connected processors like Stripe or PayPal). No additional platform fees apply to sales, memberships, or subscriptions you process.</p>
+                </div>
+
+                <div class="faq-item">
+                    <p class="faq-question">What happens if I exceed contact limits?</p>
+                    <p class="faq-answer">Approaching limits trigger notifications enabling proactive management. Temporary overages typically receive grace periods for cleanup or upgrade decisions. Persistent overages require plan upgrades to maintain full functionality. Contact pruning strategies can optimize existing tier utilization.</p>
+                </div>
+
+                <div class="faq-item">
+                    <p class="faq-question">Can I downgrade plans if needed?</p>
+                    <p class="faq-answer">Plan changes apply at billing cycle boundaries. Downgrades take effect at next renewal, though contact limits on lower tiers must accommodate existing list sizes. Data remains intact during transitions; only capacity constraints change.</p>
+                </div>
+
+                <div class="faq-item">
+                    <p class="faq-question">Do annual plans offer refunds if I need to cancel?</p>
+                    <p class="faq-answer">Refund policies vary; reviewing current terms before annual commitment is advisable. Some partial refund provisions may exist for early termination. Monthly billing provides maximum flexibility for uncertain commitment situations.</p>
+                </div>
+
+                <div class="faq-item">
+                    <p class="faq-question">How do agency features work for client management?</p>
+                    <p class="faq-answer">Growth tier and above enable sub-account creation for client work. Each client receives isolated workspace with dedicated resources. Billing consolidates under agency account while clients access only their environments. Markup opportunities exist for agency service offerings.</p>
+                </div>
+
+                <div class="faq-item">
+                    <p class="faq-question">Are there discounts available?</p>
+                    <p class="faq-answer">Annual billing provides consistent discounts versus monthly rates. Promotional periods occasionally offer additional savings. No permanent discount programs exist publicly, though direct inquiry may reveal situational opportunities.</p>
+                </div>
+            </div>
+
+            <h2>Making Your Decision</h2>
+
+            <p>Pricing evaluation ultimately requires matching investment against business requirements and growth trajectories. Starter tier suits most new businesses adequately, providing complete functionality while limiting initial commitment. Growth tier serves scaling operations and agencies requiring expanded capacity and client management. Professional tier addresses established businesses where platform constraints would impede revenue generation.</p>
+
+            <p>The trial period provides risk-free platform evaluation before pricing commitment. Testing actual workflows reveals capability fit more reliably than feature comparison. Trial users experiencing strong platform alignment can commit confidently; those identifying mismatches avoid costly subscription mistakes.</p>
+
+            <p>Consider total cost of ownership rather than nominal subscription prices. Integration time, data synchronization headaches, and multi-platform support complexity all carry costs that consolidated platforms eliminate. When comparing options, account for these hidden expenses that assembled stacks inevitably introduce.</p>
+
+            <div class="resource-links">
+                <h4>Additional Resources</h4>
                 <ul>
-                    <li><strong>30-Day Money-Back Guarantee</strong>: Full refund if unsatisfied</li>
-                    <li><strong>No Questions Asked</strong>: Simple cancellation process</li>
-                    <li><strong>Pro-Rated Refunds</strong>: If you cancel mid-cycle</li>
-                    <li><strong>Data Export</strong>: Keep your data even if you cancel</li>
+                    <li><a href="https://blotato-review.pages.dev/kartra-free-trial">https://blotato-review.pages.dev/kartra-free-trial</a> - Complete platform guide</li>
                 </ul>
             </div>
 
-            <h2>Common Questions About Kartra Free Trial</h2>
-
-            <div class="faq-item">
-                <div class="faq-question">Can I Cancel Anytime?</div>
-                <p><strong>Yes, absolutely.</strong> Since no credit card is required for the trial, there's no automatic billing to worry about. You can simply let the trial expire, or if you start a paid plan later, you can cancel that anytime with 30-day money-back guarantee protection.</p>
+            <div class="cta-box">
+                <h3>Evaluate Before You Invest</h3>
+                <p>Test the complete platform to understand value delivery at your usage level.</p>
+                <a href="https://digitalverge.net/kartratrial" class="cta-button">Click to Access Trial</a>
             </div>
+        </article>
 
-            <div class="faq-item">
-                <div class="faq-question">What Happens to My Data After Trial?</div>
-                <p><strong>Your data is preserved for 30 days after trial expiration.</strong> This gives you time to:</p>
-                <ul>
-                    <li>Export your contacts and campaign data</li>
-                    <li>Download any content you created</li>
-                    <li>Decide if you want to upgrade to a paid plan</li>
-                    <li>Transfer your work to another platform if needed</li>
-                </ul>
-                <p>If you upgrade to a paid plan, all your trial work continues seamlessly without any data loss.</p>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Can I Get Another Trial?</div>
-                <p><strong>Typically, no.</strong> Kartra's system tracks trial usage by email address and business information. However, if you have a legitimate business need to evaluate the platform again after significant time has passed or for a different business entity, you can contact their support team to discuss options.</p>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Technical Support During Trial</div>
-                <p><strong>Full support is included during your trial.</strong> You get access to:</p>
-                <ul>
-                    <li><strong>Knowledge Base</strong>: Comprehensive documentation and tutorials</li>
-                    <li><strong>Video Training</strong>: Step-by-step platform training</li>
-                    <li><strong>Email Support</strong>: Direct support from Kartra's team</li>
-                    <li><strong>Community Forum</strong>: Connect with other Kartra users</li>
-                    <li><strong>Live Chat</strong>: Real-time assistance during business hours</li>
-                </ul>
-            </div>
-
-            <h2>Pros and Cons of Kartra</h2>
-
-            <h3>Advantages of Using Kartra</h3>
-            <div class="success-box">
-                <p><strong>Key Advantages:</strong></p>
-                <ul>
-                    <li><strong>All-in-One Solution</strong>: Eliminates need for multiple tools</li>
-                    <li><strong>Cost Effective</strong>: Often cheaper than combining separate tools</li>
-                    <li><strong>Seamless Integration</strong>: All features work together perfectly</li>
-                    <li><strong>Advanced Automation</strong>: Sophisticated behavioral triggers</li>
-                    <li><strong>Excellent Support</strong>: Responsive and knowledgeable team</li>
-                    <li><strong>Regular Updates</strong>: Platform continuously improves</li>
-                    <li><strong>No Transaction Fees</strong>: Keep 100% of your sales</li>
-                </ul>
-            </div>
-
-            <h3>Potential Drawbacks to Consider</h3>
-            <div class="highlight-box">
-                <p><strong>Considerations:</strong></p>
-                <ul>
-                    <li><strong>Learning Curve</strong>: More complex than single-purpose tools</li>
-                    <li><strong>Feature Depth</strong>: Some features may not be as advanced as specialized tools</li>
-                    <li><strong>Customization Limits</strong>: Less flexibility than custom-built solutions</li>
-                    <li><strong>Migration Complexity</strong>: Moving data out can be challenging</li>
-                    <li><strong>Price Point</strong>: Higher than basic email marketing tools</li>
-                </ul>
-            </div>
-
-            <h3>Best Use Cases for Kartra</h3>
-            <p>Kartra excels in these scenarios:</p>
-            <ul>
-                <li><strong>Digital Product Sales</strong>: Courses, ebooks, software, consulting</li>
-                <li><strong>Lead Generation</strong>: Building and nurturing prospect lists</li>
-                <li><strong>Membership Communities</strong>: Recurring revenue models</li>
-                <li><strong>Event Promotion</strong>: Webinars, workshops, conferences</li>
-                <li><strong>Agency Work</strong>: Managing multiple client campaigns</li>
-                <li><strong>E-commerce</strong>: Especially digital or subscription products</li>
-            </ul>
-
-            <h2>Getting Started Checklist</h2>
-
-            <h3>Pre-Trial Preparation</h3>
-            <div class="info-box">
-                <p><strong>Before Starting Your Trial:</strong></p>
-                <ul>
-                    <li>✅ <strong>Define Your Goals</strong>: Know what you want to accomplish</li>
-                    <li>✅ <strong>Gather Assets</strong>: Collect logos, images, and content</li>
-                    <li>✅ <strong>Export Current Data</strong>: Email lists, customer data, etc.</li>
-                    <li>✅ <strong>Plan Your Timeline</strong>: Map out your 30-day testing schedule</li>
-                    <li>✅ <strong>Set Success Criteria</strong>: Decide what would make you continue</li>
-                </ul>
-            </div>
-
-            <h3>Essential Setup Tasks</h3>
-            <p><strong>Priority tasks for your first week:</strong></p>
-            <ol>
-                <li><strong>Complete Profile Setup</strong>: Add business information and branding</li>
-                <li><strong>Connect Domain</strong>: Set up custom domain for professional appearance</li>
-                <li><strong>Import Contacts</strong>: Bring in your existing email list</li>
-                <li><strong>Create First Page</strong>: Start with a simple opt-in page</li>
-                <li><strong>Set Up Email Sequence</strong>: Create a welcome series</li>
-                <li><strong>Test Everything</strong>: Ensure all systems work correctly</li>
-            </ol>
-
-            <h3>Trial Success Metrics</h3>
-            <p>Measure these key areas during your trial:</p>
-            <table class="comparison-table">
-                <thead>
-                    <tr>
-                        <th>Metric</th>
-                        <th>What to Measure</th>
-                        <th>Success Indicator</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Ease of Use</strong></td>
-                        <td>Time to complete tasks</td>
-                        <td>Completing tasks 25% faster than current tools</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Feature Coverage</strong></td>
-                        <td>Percentage of needs met</td>
-                        <td>80%+ of requirements satisfied</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Performance</strong></td>
-                        <td>Page load speeds, email deliverability</td>
-                        <td>Meets or exceeds current performance</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Cost Effectiveness</strong></td>
-                        <td>Total cost vs current tool stack</td>
-                        <td>Equal or lower cost for same functionality</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h2>Conclusion: Is Kartra's Free Trial Worth It?</h2>
-
-            <p>Kartra's 30-day free trial stands out in the crowded marketing platform space for several key reasons:</p>
-
-            <div class="success-box">
-                <p><strong>Key Takeaways:</strong></p>
-                <ul>
-                    <li><strong>Extended Trial Period</strong>: 30 days vs. competitors' 14 days</li>
-                    <li><strong>No Credit Card Required</strong>: Genuine risk-free evaluation</li>
-                    <li><strong>Complete Feature Access</strong>: Test everything the platform offers</li>
-                    <li><strong>All-in-One Solution</strong>: Potentially replace multiple tools</li>
-                    <li><strong>Strong Support</strong>: Help available throughout your trial</li>
-                </ul>
-            </div>
-
-            <p>The extended 30-day trial period gives you adequate time to not just test features, but to actually implement them in your business and see real results. This is particularly valuable for evaluating an all-in-one platform like Kartra, where the true benefit comes from seeing how all the pieces work together.</p>
-
-            <p>Whether you're currently using multiple disconnected tools, paying high monthly fees for basic functionality, or struggling with limited features in your current platform, Kartra's trial offers a risk-free way to explore a comprehensive alternative.</p>
-
-            <div class="info-box">
-                <p><strong>The trial is ideal if you:</strong></p>
-                <ul>
-                    <li>Need multiple marketing tools (landing pages, email, funnels)</li>
-                    <li>Want to reduce your monthly tool costs</li>
-                    <li>Require better integration between your marketing systems</li>
-                    <li>Are growing beyond basic marketing tool limitations</li>
-                    <li>Value having everything in one platform for efficiency</li>
-                </ul>
-            </div>
-
-            <div class="cta-section">
-                <h3 style="margin-bottom: 1rem;">Start Your 30-Day Kartra Trial Today</h3>
-                <p style="margin-bottom: 1.5rem;">Get exclusive access to Kartra's full platform for 30 days - no credit card required</p>
-                <a href="https://digitalverge.net/kartratrial" class="cta-button">
-                    🚀 Click Here to Start Trial
-                </a>
-                <p class="cta-subtitle">
-                    30-day trial • No credit card required • Full feature access • Money-back guarantee
-                </p>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Shoals Marketing. All rights reserved.</p>
-        </div>
-    </footer>
+        <footer>
+            <p>&copy; 2025 Shoals Digital. All rights reserved.</p>
+            <p><a href="index.html">Home</a> | Independent reviews for informed decisions.</p>
+        </footer>
+    </div>
 </body>
 </html>
