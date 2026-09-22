@@ -36,14 +36,19 @@ header {
     text-align: center;
 }
 
-header h1 {
+.site-brand {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
     font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
 }
 
-.tagline {
-    font-size: 1.2rem;
-    opacity: 0.9;
+.site-brand:hover {
+    color: white;
+    text-decoration: none;
 }
 
 /* Navigation */
@@ -77,6 +82,270 @@ nav a:hover {
 /* Main Content */
 main {
     padding: 3rem 0;
+}
+
+.page-title {
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    color: var(--text-dark);
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+}
+
+.home-title {
+    margin: 0 0 2.5rem;
+}
+
+.article-content,
+.article-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-content > h1,
+.article-container > h1 {
+    color: var(--text-dark);
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+    margin-bottom: 1rem;
+}
+
+.article-content h2,
+.article-container h2 {
+    color: var(--primary-color);
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--bg-light);
+    padding-bottom: 0.5rem;
+}
+
+.article-content h3,
+.article-container h3 {
+    color: var(--text-dark);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.article-content p,
+.article-container p {
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.75;
+}
+
+.article-content ul,
+.article-content ol,
+.article-container ul,
+.article-container ol {
+    margin: 1rem 0 1.5rem 1.5rem;
+    line-height: 1.65;
+}
+
+.article-content li,
+.article-container li {
+    margin-bottom: 0.5rem;
+}
+
+.article-meta {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 0.95rem;
+}
+
+.breadcrumb {
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.breadcrumb a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    margin: 0 0.5rem;
+}
+
+.info-box,
+.highlight-box {
+    background: #eff6ff;
+    border-left: 4px solid var(--primary-color);
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.cta-section,
+.cta-box {
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+    color: white;
+}
+
+.cta-section h2,
+.cta-section h3,
+.cta-box h2,
+.cta-box h3 {
+    color: white;
+    border: 0;
+    margin-top: 0;
+}
+
+.cta-section p,
+.cta-box p {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.cta-button {
+    display: inline-block;
+    background: white;
+    color: var(--primary-color) !important;
+    padding: 0.9rem 1.6rem;
+    border-radius: 8px;
+    text-decoration: none !important;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pricing-table th {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.pricing-table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.pricing-table tr:nth-child(even) {
+    background: var(--bg-light);
+}
+
+.pros-cons,
+.pros-cons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.pros,
+.pros-box,
+.cons,
+.cons-box {
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.pros,
+.pros-box {
+    background: #d1fae5;
+    border: 1px solid #10b981;
+}
+
+.cons,
+.cons-box {
+    background: #fee2e2;
+    border: 1px solid #ef4444;
+}
+
+.faq-item,
+.resource-links {
+    background: var(--bg-light);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+body.article-page {
+    color: var(--text-dark);
+    background: white;
+}
+
+.article-page nav {
+    margin-bottom: 0;
+    text-align: initial;
+}
+
+.article-page nav a {
+    margin: 0;
+}
+
+.article-page .container {
+    max-width: 1200px;
+}
+
+.article-page .article-container {
+    max-width: 900px;
+    background: white;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.article-page .article-container p,
+.article-page .article-container li {
+    color: var(--text-dark);
+}
+
+.article-page .article-container h1,
+.article-page .article-container h2,
+.article-page .article-container h3 {
+    text-shadow: none;
+}
+
+.page-title,
+.article-content > h1,
+.article-container > h1 {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+.article-page .article-container .cta-box h2,
+.article-page .article-container .cta-box h3,
+.article-page .article-container .cta-box p {
+    color: white;
+}
+
+.article-page .rating-badge {
+    color: var(--text-dark);
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+}
+
+.article-page footer {
+    opacity: 1;
+    font-size: 1rem;
 }
 
 section {
@@ -264,20 +533,22 @@ footer {
 
 footer p {
     margin-bottom: 0.5rem;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    header h1 {
+    .site-brand {
         font-size: 2rem;
     }
     
-    .tagline {
-        font-size: 1rem;
-    }
-    
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 1rem;
         text-align: center;
     }
@@ -288,5 +559,15 @@ footer p {
     
     .category-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .pros-cons,
+    .pros-cons-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-table {
+        display: block;
+        overflow-x: auto;
     }
 }
