@@ -32,18 +32,25 @@ body {
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
-    padding: 3rem 0;
-    text-align: center;
+    padding: 1.35rem 0;
+}
+
+.site-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
 .site-brand {
     display: inline-block;
     color: white;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.03em;
+    white-space: nowrap;
 }
 
 .site-brand:hover {
@@ -52,31 +59,45 @@ header {
 }
 
 /* Navigation */
-nav {
-    background-color: var(--bg-light);
-    border-bottom: 1px solid var(--border-color);
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+.site-nav {
+    position: static;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    text-align: initial;
 }
 
-nav ul {
+.site-nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.75rem;
 }
 
-nav a {
-    color: var(--text-dark);
+.site-nav a {
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
     transition: color 0.3s;
 }
 
-nav a:hover {
-    color: var(--primary-color);
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.35rem;
+}
+
+.site-brand:focus-visible,
+.site-nav a:focus-visible,
+.footer-nav a:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 4px;
 }
 
 /* Main Content */
@@ -95,6 +116,49 @@ main {
 
 .home-title {
     margin: 0 0 2.5rem;
+}
+
+.static-page {
+    max-width: 780px;
+}
+
+.static-page > h1 {
+    margin-bottom: 1.5rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+}
+
+.static-page h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.static-page p,
+.static-page li {
+    font-size: 1.05rem;
+}
+
+.static-page p {
+    margin-bottom: 1.25rem;
+}
+
+.static-page ul {
+    margin: 0 0 1.5rem 1.5rem;
+}
+
+.static-page li {
+    margin-bottom: 0.6rem;
+}
+
+.contact-card {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-light);
 }
 
 .article-content,
@@ -289,15 +353,6 @@ main {
 body.article-page {
     color: var(--text-dark);
     background: white;
-}
-
-.article-page nav {
-    margin-bottom: 0;
-    text-align: initial;
-}
-
-.article-page nav a {
-    margin: 0;
 }
 
 .article-page .container {
@@ -540,17 +595,38 @@ footer a {
     color: white;
 }
 
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 0.75rem;
+}
+
+.footer-nav a {
+    color: rgba(255, 255, 255, 0.88);
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .site-brand {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
-    
-    nav ul {
-        flex-direction: row;
+
+    .site-header-inner {
         flex-wrap: wrap;
-        gap: 1rem;
-        text-align: center;
+        gap: 0.9rem 1.5rem;
+    }
+
+    .site-nav ul {
+        gap: 0.75rem 1.1rem;
+        justify-content: flex-start;
     }
     
     .grid {
@@ -569,5 +645,16 @@ footer a {
     .pricing-table {
         display: block;
         overflow-x: auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .site-header-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .site-nav {
+        margin-left: 0;
     }
 }
