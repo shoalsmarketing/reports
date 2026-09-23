@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shoalsmarketing.github.io/reports/sitemap.xml
